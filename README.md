@@ -16,7 +16,6 @@ The system uses **Stable Diffusion XL Turbo** to generate high-quality images fr
 Unlike traditional graphics design, this approach automatically creates images based on user prompts using AI.
 
 The system ensures:
-
      - Fast image generation
      - High-quality visual output
      - User-friendly interface
