@@ -33,17 +33,52 @@ The system ensures:
 The system follows this pipeline:
 
 **1. User Input**
-     User enters a text prompt
+User enters a text prompt
 
 **2. Model Processing**
-     AI model interprets text and generates latent representation
+AI model interprets text and generates latent representation
 
 **3. Image Generation**
-     Model converts representation into an image
+Model converts representation into an image
 
 **4. Output Display**
-     Generated image is shown in UI with generation time
+Generated image is shown in UI with generation time
 
+# Tech Stack
+  - Python
+  - PyTorch
+  - Diffusers Library
+  - Gradio
+  - PIL (Python Imaging Library)
+  - CSS (for UI styling)
 
+# Model details
+ - Model Type: Text-to-Image Diffusion Model
+ - Model Used: Stable Diffusion XL Turbo
+ - Inference Steps: 4 (optimized for speed)
+ - Guidance Scale: 0.0 (creative generation)
+ - Device: GPU (CUDA) / CPU
 
+# How to Run
+
+python main.py
+
+# Output
+ - User provides a text description (prompt) of the image
+ - The system generates an image based on the given prompt
+ - Displays the generated image in the interface
+ - Shows the image generation time
+
+# Results 
+ - High-speed image generation (~1–2 seconds)
+ - Visually rich and creative outputs
+ - Smooth UI interaction
+ - Efficient performance with GPU
+
+# Future Scope
+ - Improve image quality with more inference steps
+ - Add image editing features
+ - Deploy as web application
+ - Add prompt suggestions using NLP
+ - Support batch image generation
 
