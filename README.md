@@ -11,7 +11,10 @@
 
 # Overview
 This project presents a **Text-to-Image Generation System** using deep learning.
-The system uses **Stable Diffusion XL Turbo** to generate high-quality images from textual descriptions. Unlike traditional graphics design, this approach automatically creates images based on user prompts using AI.
+
+The system uses **Stable Diffusion XL Turbo** to generate high-quality images from textual descriptions.
+Unlike traditional graphics design, this approach automatically creates images based on user prompts using AI.
+
 The system ensures:
      - Fast image generation
      - High-quality visual output
