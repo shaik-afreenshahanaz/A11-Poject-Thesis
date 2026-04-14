@@ -33,13 +33,16 @@ The system ensures:
 The system follows this pipeline:
 
 **1. User Input**
-User enters a text prompt
+     User enters a text prompt
+
 **2. Model Processing**
-AI model interprets text and generates latent representation
+     AI model interprets text and generates latent representation
+
 **3. Image Generation**
-Model converts representation into an image
+     Model converts representation into an image
+
 **4. Output Display**
-Generated image is shown in UI with generation time
+     Generated image is shown in UI with generation time
 
 
 
