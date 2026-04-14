@@ -17,8 +17,11 @@ Unlike traditional graphics design, this approach automatically creates images b
 
 The system ensures:
      - Fast image generation
+     
      - High-quality visual output
+     
      - User-friendly interface
+     
      - Real-time results
   
 
